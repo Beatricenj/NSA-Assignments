@@ -1,0 +1,15 @@
+NETWORK SYSTEM AND ADMINISTRATION
+SCT212-0153/2022
+ASSIGNMENT 1
+Write up on the differences and similarities between the 7 layer OSI reference model and the TCP/IP model. 
+
+
+The OSI (Open Systems Interconnection) reference model and the TCP/IP model both differ and are similar in number of ways.The most obvious  difference lies in the number of layers.  The OSI model has seven layers: Application, Presentation, Session, Transport, Network, Data Link, and Physical. In comparison, the TCP/IP paradigm is more simplified, including only four layers: Application, Transport, Internet, and Network Interface.
+
+Another key distinction is in the names and functions of these layers The OSI model gives a full description, including layers like Presentation and Session, which handle data translation and session management. These functions aren't clearly described in the TCP/IP paradigm. The TCP/IP architecture, on the other hand, is adapted to the actual protocols in use, making it more practical for real-world networking, with layers focused on specialized functions like routing, transport, and application services.
+
+In terms of standards, the OSI model is more theoretical and acts as a framework for understanding network protocols. However, it has experienced minimal success in terms of actual application and standardization. The TCP/IP paradigm, by contrast, is extensively embraced and provides the backbone for the actual Internet. Its practical aspect is shown in its direct link to the protocols enabling the Internet.
+
+Despite these differences, there are several critical similarities between these models.  Both adopt a tiered approach to reduce the intricacies of networking, making it easier to create, diagnose, and manage network systems. They both prioritize end-to-end communication, taking into consideration the transport of data from source to destination, considering the many intermediate devices and networks in between.
+
+Standardization is another shared concern. Both approaches set standards and protocols that enable diverse network devices and applications to operate together effortlessly. They contain an application layer that handles with user interfaces and high-level protocols, giving network services directly to end-users or applications. Additionally, they both have a transport layer responsible for end-to-end communication, comprising flow management, error correction, and data segmentation and reassembly. The network layer, included in both models, is responsible for routing and addressing, ensuring that data reaches its intended destination.
